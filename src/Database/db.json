@@ -1,0 +1,48 @@
+{
+  "customer": [
+    {
+      "id": "9305",
+      "first_name": "assa",
+      "last_name": "assa",
+      "email": "assa@gmail.com",
+      "phone": "8017505010",
+      "address": "asas",
+      "city": "asasas",
+      "state": "asasas",
+      "pin": "712258"
+    },
+    {
+      "id": "8740",
+      "first_name": "assa sasaasas",
+      "last_name": "assa",
+      "email": "assa@gmail.com",
+      "phone": "8017505010",
+      "address": "asas",
+      "city": "asasas",
+      "state": "asasas",
+      "pin": "712258"
+    },
+    {
+      "id": "d393",
+      "first_name": "Mohul",
+      "last_name": "Ray",
+      "email": "mohu@gmail.com",
+      "phone": "8017505010",
+      "address": "sasaas",
+      "city": "asasas",
+      "state": "asasas",
+      "pin": "712258"
+    },
+    {
+      "first_name": "Loknath",
+      "last_name": "Baba",
+      "email": "assa@gmail.com",
+      "phone": "8017505010",
+      "address": "asas",
+      "city": "asas",
+      "state": "saasas saasas",
+      "pin": "712258",
+      "id": "ef42"
+    }
+  ]
+}
