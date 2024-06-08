@@ -19,7 +19,7 @@ import { useNavigate } from "react-router-dom"; // Import Use Navigate
 import { useSelector, useDispatch } from "react-redux"; // Import Use Dispatch
 import { CircularProgress } from "@mui/material"; // Circle Loader 
 import { useParams } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useQuery } from "@tanstack/react-query";
 
 function Copyright(props) {
     return (
@@ -47,7 +47,7 @@ const Edit = () => {
     const { register, handleSubmit, watch, formState: { errors }, reset } = useForm();
     //const { loading } = useSelector((state) => state?.Addcustomer);
 
-    // Get product For Single Value start
+    // Get product For Single Value (Start)
     const getCustomer = async () => {
         try {
             const response = await dispatch(detailscustomer(id));
@@ -70,10 +70,8 @@ const Edit = () => {
         }
     };
 
-    useEffect(() => {
-        getCustomer();
-    }, []);
-    // Get product For Single Value end
+    useQuery({ queryFn: getCustomer }) // This line of code work as same as useEffect()
+    // Get product For Single Value (End)
 
     const onSubmit = async (data) => {
 
